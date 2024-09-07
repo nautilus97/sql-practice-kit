@@ -2,7 +2,7 @@
 
 두 명의 팀원이 프로그래머스 SQL 문제를 풀고 풀이 과정을 기록한 Repo
 <br/>
-
+<br/>
 
 ## Repo 구성
 
@@ -18,6 +18,7 @@ sql-practice-kit/
 │   ├── 문제1
 └── README.md
 ```
+<br/>
 
 
 ## md 파일 규칙
