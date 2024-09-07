@@ -61,7 +61,7 @@ SELECT
 
 #### Commit Message 형식
 ```plaintext
-{문제종류} - {문제이름} ({레벨}) : [타입]
+{문제이름} ({레벨}) : [타입]
 ```
 [타입]은 작업의 성격을 표시
 - 풀이 : 문제 풀이 작성
@@ -70,12 +70,12 @@ SELECT
   
 ##### _예시_
 ```plaintext
-SELECT - 평균 일일 대여 요금 구하기 (level 1) : 풀이
+평균 일일 대여 요금 구하기 (level 1) : 풀이
 
-// Commit Message에서는 문제이름에 띄어쓰기 사용
+// Commit Message에서는 문제이름 그대로 사용
 ```
 ```plaintext
-JOIN - 과일로 만든 아이스크림 고르기 (level 2) : 수정
+과일로 만든 아이스크림 고르기 (level 2) : 수정
 ```
 
 #### 개별 Branch 및 Pull Request 사용
