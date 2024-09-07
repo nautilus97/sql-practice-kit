@@ -21,14 +21,12 @@
 | AUTHOR_ID        | INTEGER     | FALSE    | 저자 ID     |
 | AUTHOR_NAME      | VARCHAR(N)  | FALSE    | 저자명      |
 
----
 
 ## 문제
 
 `경제` 카테고리에 속하는 도서들의 도서ID(`BOOK_ID`), 저자명(`AUTHOR_NAME`), 출판일(`PUBLISHED_DATE`) 리스트를 출력하는 SQL문을 작성해주세요.  
 결과는 출판일을 기준으로 오름차순 정렬해주세요.
 
----
 
 ## 예시
 
