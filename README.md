@@ -27,6 +27,9 @@ sql-practice-kit/
 ```plaintext
 level1_평균일일대여요금구하기.md
 ```
+<br/>
+
+
 ### 2. 내용 구성
 
 - 문제 설명
@@ -51,6 +54,7 @@ SELECT
 ```plaintext
 소감(Optional)
 ```
+<br/>
 
 ### 3. 커밋 규칙
 
