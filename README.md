@@ -87,7 +87,7 @@ SELECT
 - 작업이 완료되면 Pull Request를 생성해 팀원의 리뷰를 받은 후 main 브랜치에 Merge
 - PR 과정에서 코드 리뷰를 통해 피드백을 주고받고, 필요한 경우 수정 후 Merge
 
-
+### ⭐️ **PULL_REQUEST_GUIDE.md를 참고하세요** ⭐️
 
 
 
