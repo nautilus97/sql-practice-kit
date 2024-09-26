@@ -59,8 +59,9 @@
 ```sql
 -- 재용 코드
 SELECT a.FLAVOR
-from FIRST_HALF a
-LEFT JOIN ICECREAM_INFO jaeyong
+from FIRST_HALF 
+test line
+LEFT JOIN ICECREAM_INFO eyeol
 ON a.FLAVOR = b.FLAVOR
 where a.TOTAL_ORDER > 3000 and b.INGREDIENT_TYPE = 'fruit_based'
 ```
