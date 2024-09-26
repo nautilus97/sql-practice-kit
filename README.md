@@ -1,7 +1,8 @@
 # 프로그래머스 SQL 문제 풀이
 
-두 명의 팀원이 프로그래머스 SQL 문제를 풀고 풀이 과정을 기록한 Repo
+https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit
 <br/>
+두 명의 팀원이 프로그래머스 SQL 문제를 풀고 풀이 과정을 기록한 Repo
 <br/>
 
 ## Repo 구성
