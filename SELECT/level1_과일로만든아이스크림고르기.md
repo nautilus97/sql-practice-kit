@@ -59,7 +59,8 @@
 ```sql
 -- 재용 코드
 SELECT a.FLAVOR
-from FIRST_HALF a
+from FIRST_HALF 
+test line
 test 살고시퍼..
 LEFT JOIN ICECREAM_INFO eyeol
 ON a.FLAVOR = b.FLAVOR
