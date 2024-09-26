@@ -49,12 +49,17 @@
 ### 코드
 ```sql
 -- 재용 코드
-SELECT ...;
+SELECT ROUND(AVG(DAILY_FEE), 0) as AVERAGE_FEE
+from CAR_RENTAL_COMPANY_CAR
+WHERE CAR_TYPE = 'SUV';
 ```
 ### 소감
 ```plaintext
-짧은 소감
-또는 배우게 된 개념 간단하게
+AVG(컬럼명) : 컬럼들의 평균을 구함(컬럼 타입에 관계없이 DOUBLE 타입 리턴해주는듯)
+
+ROUNT(n, d) : 숫자 n을 소수점 d번쨰 자리에서 반올림
+
+ORIGIN as TARGET : ORIGIN 컬럼을 TARGET이런 이름으로 출력한다. as를 생략해도 된다
 ```
 
 <br/>
