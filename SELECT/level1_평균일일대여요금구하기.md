@@ -51,7 +51,7 @@
 -- 재용 코드
 SELECT ROUND(AVG(DAILY_FEE), 0) as AVERAGE_FEE
 from CAR_RENTAL_COMPANY_CAR
-WHERE CAR_TYPE = 'SUV'
+WHERE CAR_TYPE = 'SUV';
 ```
 ### 소감
 ```plaintext
