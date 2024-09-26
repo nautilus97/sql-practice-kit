@@ -80,7 +80,7 @@ SELECT ...;
 ### 코드
 ```sql
 -- 이열 코드
-SELECT ...;
+SELECT test;
 ```
 ### 소감
 ```plaintext
