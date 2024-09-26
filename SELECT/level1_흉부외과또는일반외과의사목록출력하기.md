@@ -64,7 +64,7 @@ SQL을 실행하면 다음과 같이 출력되어야 합니다.
 ### 코드
 ```sql
 -- 재용 코드
-SELECT ...;
+SELECT rbrb;
 ```
 ### 소감
 ```plaintext
