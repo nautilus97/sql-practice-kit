@@ -58,12 +58,23 @@
 ### 코드
 ```sql
 -- 재용 코드
-# 이 세상 모든 것을 repo에 두고 왓다
-# 에이스는 주근거지..ㅠㅠㅠ
-
+SELECT a.FLAVOR
+from FIRST_HALF a
+LEFT JOIN ICECREAM_INFO b
+ON a.FLAVOR = b.FLAVOR
+where a.TOTAL_ORDER > 3000 and b.INGREDIENT_TYPE = 'fruit_based'
 ```
 
-
+``` sql
+--- 재용 코드2
+SELECT FLAVOR
+from FIRST_HALF
+where TOTAL_ORDER > 3000 and FLAVOR in (
+    select FLAVOR
+    from ICECREAM_INFO
+    where INGREDIENT_TYPE = 'fruit_based'
+)
+```
 ### 소감
 ```plaintext
 코드1 (JOIN 사용)
@@ -83,7 +94,7 @@ JOIN을 이용해 'FIRST_HALF 테이블의 모든 컬럼'과 'ICECREAM_INFO 테�
 ### 코드
 ```sql
 -- 이열 코드
-SELECT 사람은 주거;
+SELECT ...;
 ```
 ### 소감
 ```plaintext
