@@ -60,6 +60,7 @@
 -- 재용 코드
 SELECT a.FLAVOR
 from FIRST_HALF a
+test 살고시퍼..
 LEFT JOIN ICECREAM_INFO eyeol
 ON a.FLAVOR = b.FLAVOR
 where a.TOTAL_ORDER > 3000 and b.INGREDIENT_TYPE = 'fruit_based'
