@@ -81,6 +81,7 @@ SELECT ...;
 ```sql
 -- 이열 코드
 SELECT test;
+SELECT test2;
 ```
 ### 소감
 ```plaintext
