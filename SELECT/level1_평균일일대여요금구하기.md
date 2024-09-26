@@ -65,12 +65,16 @@ SELECT ...;
 ### 코드
 ```sql
 -- 이열 코드
-SELECT ...;
+
+SELECT ROUND(AVG(DAILY_FEE), 0)
+AS AVERAGE_FEE 
+FROM CAR_RENTAL_COMPANY_CAR
+WHERE CAR_TYPE = 'SUV';
 ```
 ### 소감
 ```plaintext
-짧은 소감
-또는 배우게 된 개념 간단하게
+SELECT, AS, FROM, WHERE, ROUND 배우게 됨
+익숙해지면 level_1 문제는 금방 풀듯
 ```
 
 
