@@ -47,12 +47,16 @@ SQL을 실행하면 다음과 같이 출력되어야 합니다.
 ### 코드
 ```sql
 -- 재용 코드
-SELECT ...;
+SELECT WAREHOUSE_ID, WAREHOUSE_NAME, ADDRESS, ifnull(FREEZER_YN, 'N') as FREEZER_YN
+from FOOD_WAREHOUSE
+where ADDRESS like '경기%'
+order by WAREHOUSE_ID
 ```
 ### 소감
 ```plaintext
 짧은 소감
-또는 배우게 된 개념 간단하게
+ifnull 함수를 이용하면 null값을 특정 값으로 대체할수 있다
+COALESCE 사용하려했는데 스펠링이 자꾸 기억 안남
 ```
 
 <br/>
