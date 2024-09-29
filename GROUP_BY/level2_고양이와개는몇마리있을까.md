@@ -47,12 +47,14 @@
 ### 코드
 ```sql
 -- 재용 코드
-SELECT ...;
+SELECT ANIMAL_TYPE, count(ANIMAL_TYPE) as count
+from ANIMAL_INS
+GROUP BY ANIMAL_TYPE
+order by ANIMAL_TYPE 
 ```
 ### 소감
 ```plaintext
-짧은 소감
-또는 배우게 된 개념 간단하게
+Cat이 먼저 Dog가 나중이므로 오름차순 order by
 ```
 
 <br/>
