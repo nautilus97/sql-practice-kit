@@ -42,12 +42,14 @@
 ### 코드
 ```sql
 -- 재용 코드
-SELECT ...;
+SELECT max(PRICE) as MAX_PRICE
+from PRODUCT 
 ```
 ### 소감
 ```plaintext
 짧은 소감
-또는 배우게 된 개념 간단하게
+처음에는 order by PRICE DESC 와 LIMIT 1을 생각함
+MAX()보다 속도도 느리고 문제 의도에도 안맞았을듯
 ```
 
 <br/>

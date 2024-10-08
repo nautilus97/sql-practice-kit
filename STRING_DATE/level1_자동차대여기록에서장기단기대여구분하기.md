@@ -49,12 +49,19 @@
 ### 코드
 ```sql
 -- 재용 코드
-SELECT ...;
+SELECT HISTORY_ID, CAR_ID,
+    date_format(START_DATE, '%Y-%m-%d') START_DATE, date_format(END_DATE, '%Y-%m-%d') END_DATE,
+    if(DATEDIFF(END_DATE,START_DATE)+1 >= 30, '장기 대여', '단기 대여') as RENT_TYPE
+from CAR_RENTAL_COMPANY_RENTAL_HISTORY
+where date_format(START_DATE, '%Y-%m') = '2022-09'
+order by HISTORY_ID DESC
 ```
 ### 소감
 ```plaintext
-짧은 소감
-또는 배우게 된 개념 간단하게
+DATEDIFF(A,B)는 A에서 B와의 일수 차이를 반환해줌
+SQL의 if문은 삼항연산자처럼 쓰임 -> if(조건, 참인경우 값, 거짓인경우 값)
+
+대여한 첫날부터 1일차라 두 날짜의 차이는 1일차가 빠진 일수임
 ```
 
 <br/>

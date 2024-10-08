@@ -63,12 +63,15 @@
 ### 코드
 ```sql
 -- 재용 코드
-SELECT ...;
+SELECT BOOK_ID, A.AUTHOR_NAME, date_format(PUBLISHED_DATE, '%Y-%m-%d') as PUBLISHED_DATE
+from BOOK B join AUTHOR A
+on B.AUTHOR_ID = A.AUTHOR_ID
+where CATEGORY = '경제'
+order by PUBLISHED_DATE
 ```
 ### 소감
 ```plaintext
-짧은 소감
-또는 배우게 된 개념 간단하게
+간단한 문제
 ```
 
 <br/>
